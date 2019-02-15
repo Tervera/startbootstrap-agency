@@ -1,0 +1,21 @@
+.navbar .navbar-brand span{
+    display: block;
+    font-size: 50%;
+    text-align: center;
+    margin-top: -10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.subscribe .form-group{
+}
+
+header.masthead .intro-text {
+
+    padding-top: 200px;
+    padding-bottom: 100px;
+
+}
+
+section#contact .form-group textarea.form-control {
+    height: 150px;
+}
