@@ -46,9 +46,6 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#services">Services</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
@@ -57,6 +54,9 @@
           </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="ichub">icHUB</a>
           </li>
         </ul>
       </div>
@@ -69,9 +69,9 @@
       <div class="intro-text">
         <div class="intro-lead-in">Welcome to TrueTech Information Systems!</div>
         <div class="intro-heading">We are launching soon!</div>
-        <form class="" id="contactForm" name="sentMessage" novalidate="novalidate">
+        <form class="" id="contactForm" name="sentMessage" novalidate="novalidate" action="mail/subscribe.php">
           <div class="row">
-            <div class="col-lg-6 offset-3 subscribe">
+            <div class="col-lg-6 m-auto">
               <p class="first text-primary">Be the first to hear from us!</p>
               <div class="form-group">
                 <input class="form-control email_add" id="email_add" type="email" placeholder="Your Email *">
@@ -79,7 +79,7 @@
                 <p class="help-block text-danger"></p>
               </div>
             </div>
-            <div class="clearfix"></div>
+            <!-- <div class="clearfix"></div> -->
             <div class="col-lg-12 text-center">
               <div id="success"></div>
               <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Subscribe</button>
@@ -197,7 +197,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">About</h2>
-          <h3 class="section-subheading text-muted">TrueTech is an agency with a start.</h3>
+          <h3 class="section-subheading text-muted">TrueTech understands your tech needs.</h3>
         </div>
       </div>
       <div class="row">
@@ -210,11 +210,11 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>The Company</h4>
-                  <h4 class="subheading">TrueTech Info Systems</h4>
+                  <h5 class="subheading">TrueTech Info Systems</h5>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">We are an indigenous technology firm Headquartered in Nigeria with a global perspective our goal is to
-                    satisfy all your technology needs a the best price and hghest quality.</p>
+                  <p class="text-muted">We are an indigenous technology firm Headquartered in Nigeria with a global perspective, our goal is to
+                    satisfy all your technology needs a the best price and hghest quality possible.</p>
                 </div>
               </div>
             </li>
@@ -225,12 +225,11 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>The Founder</h4>
-                  <h4 class="subheading">Terver Stephen Aosu</h4>
+                  <h5 class="subheading">Terver Stephen Aosu</h5>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">I'm passionate about everything technology, this passion drove me to obtain a barchelor's in mechanical
-                    engineering and also to acquire the knowledge of computer programming. When i'm not coding i spend my
-                    free time learning something new mostly through reading.</p>
+                  <p class="text-muted">He is passionate about building technologies that help small businesses connect effectively with their
+                    customers. He's been doing this for five years and understands all buinesses are not the same.</p>
                 </div>
               </div>
             </li>
@@ -373,12 +372,12 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Contact Us</h2>
-          <h3 class="section-subheading text-muted">Feel free to reach us with your questions, comment and suggestions.</h3>
+          <h3 class="section-subheading text-muted">Feel free to reach us with your questions, comment or suggestions.</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+          <form id="contactForm" name="sentMessage" novalidate="novalidate" action="mail/contact_me.php">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
@@ -404,7 +403,7 @@
                 </div>
               </div>
               <div class="col-md-6 text-primary">
-                <h2 class="section-heading text-uppercase">Address</h2>
+                <h4 class="section-heading text-uppercase">Address</h4>
                 <p class="address">
                   <i class="fas fa-home fa-1x fa-inverse"></i>
                   2 JS Tarka Way,
@@ -412,10 +411,29 @@
                   <br> Benue - Nigeria.
                 </p>
                 <i class="fas fa-phone fa-1x fa-inverse"></i>
-                <a href="tel:+2348094944984">+234(0)809-4944-984</a>
+                <a href="tel:+2348094944984">+234 (0) 809-4944-984</a>
                 <br>
                 <i class="fas fa-envelope fa-1x fa-inverse"></i>
                 <a href="mailto:help@truetech.com.ng">help@truetech.com.ng</a>
+                <div class="col-md-12 mt-4">
+                  <ul class="list-inline social-buttons">
+                    <li class="list-inline-item text-center">
+                      <a href="#">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item text-center">
+                      <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item text-center">
+                      <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
               <div class="clearfix"></div>
             </div>
@@ -433,7 +451,7 @@
           <span class="copyright">Copyright &copy; TrueTech Information Systems 2019</span>
         </div>
         <div class="col-md-4">
-          <ul class="list-inline social-buttons">
+          <!-- <ul class="list-inline social-buttons">
             <li class="list-inline-item">
               <a href="#">
                 <i class="fab fa-twitter"></i>
@@ -449,7 +467,7 @@
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </li>
-          </ul>
+          </ul> -->
         </div>
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
